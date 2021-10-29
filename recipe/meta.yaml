@@ -1,5 +1,5 @@
 {% set name = "iso-codes" %}
-{% set version = "4.1" %}
+{% set version = "4.2" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/iso-codes-{{ version }}/iso-codes-iso-codes-{{ version }}.tar.gz
-  sha256: dd91ecc7cce92272e6892dc49f6f5c1db6fabc1ea7fe41ad98b7fa26c7b2c5dd
+  sha256: 0ebeddadbf2c014063e3b4f1c93117c6978bcab06aea3dac4456c7b46af1335d
 
 build:
   number: 0
